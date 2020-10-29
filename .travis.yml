@@ -1,0 +1,31 @@
+language: node_js
+
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+
+node_js:
+  - '12'
+
+git:
+  depth: 3
+
+script:
+  - yarn test
+
+notifications:
+  email:
+    recipients:
+      - quinterosantiago15@gmail.com
+    on_success: always
+    on_failure: always
+
+deploy:
+  provide: heroku
+  skip-cleanup: true
+  keep-history: true
+  api_key: 31eae186-4609-4082-9582-52dc49e9660c # desde heroku
+  app: app-backend-store
+  on:
+    repo: santiagoquinteroguarin/platzi-store-backend
