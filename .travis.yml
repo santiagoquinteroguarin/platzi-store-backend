@@ -25,7 +25,8 @@ deploy:
   provide: heroku
   skip-cleanup: true
   keep-history: true
-  api_key: 31eae186-4609-4082-9582-52dc49e9660c # desde heroku
+  api_key:
+    secure: "W5Xo63nOFFWywUz/V6ly89XRq92B9fZux9fXvvymQtC66ICJwIcyIvIKvVC8FVZ8ZdS2XstjJhE5GfVgYzo1GXMd0+y4Rhes//snEkeKKhCeCU4GJR0N/+mOU2Dm7YTgpobXfuIyLX9cdEDHR7w6/rSO0ToB5wCcIaKkQW0a5TVJMvtVWPXPY1MJpydlOyR4S8oFOZB6BEgm71QCAOA2prjVUKhX9EkJf/s2956hG5ZzcaIh4ZEDciueJ7hZlvwvDwsXePlSiBeTkychixkRjQpRtNtfZCAR2jZFnFwuP1w/xs+3NzFlTVKpRQMOzp7Q0MDw5o3NIAbvXF/LCyVBbpeJC7c+15YFNhtTheld0zL7V/viEkgF6kOOb9LdsR4OgZonalSWYTtvbSZJ30n/gT0hXLtur5OPi+7Gsfj+BGdr3ByBThszPTQgot9FjvjAkjmx90g0GjRvmdENkUwzjnqMv/faS/jWZF2qO5ZDF76jJU/OjrTHRIWfEP31ibxLkfrJxkSR6bfatyG/el4a4Bgren3fFgtJVeB9eoFYG87d4/HVAz1E23FEyuRtrX1aqcNI1qqDnBvnlOx6i6lpcsMItvS+LmpyaJVi2E9PTv8muqhB+l+GBQY3QuXtVovxahnALrf0XlH7la5gYK6AyGRloB8VuvQoIZZZJLWwW+k="
   app: app-backend-store
   on:
     repo: santiagoquinteroguarin/platzi-store-backend
